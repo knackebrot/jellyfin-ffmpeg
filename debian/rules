@@ -41,6 +41,8 @@ CONFIG := --prefix=${TARGET_DIR} \
 	--enable-libx265 \
 	--enable-libzvbi \
 	--enable-libzimg \
+	--enable-libfdk-aac \
+	--enable-nonfree \
 
 CONFIG_ARM_COMMON := --toolchain=hardened \
 	--enable-cross-compile \
